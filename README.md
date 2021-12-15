@@ -12,4 +12,6 @@ This script has some dependencies, which you can see in the import section at th
 
 The biggest is an external dependency in needing either Firefox or Chrome installed on your machine, and the proper webdriver for them, as this script is used to control your web browser to scrape the AGU meeting site. This script uses FireFox and the gecko webriver for it. There are many tutorials for installing Selenium's Python bindings so one can uset this script, but a good one is at https://www.geeksforgeeks.org/selenium-python-introduction-and-installation/
 
+Important note: The boolean logic for which institution your authors are at is in the if statement on line 123 or thereabouts. This willl be different for your institution and you might have to write some very complicated logic if your authors have differing affiliations from one another or like in our case, there are multiple spellings and abbreviations for your instituion.
+
 Happy scraping!
