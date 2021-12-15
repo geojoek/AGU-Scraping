@@ -14,4 +14,6 @@ The biggest is an external dependency in needing either Firefox or Chrome instal
 
 Important note: The boolean logic for which institution your authors are at is in the if statement on line 123 or thereabouts. This willl be different for your institution and you might have to write some very complicated logic if your authors have differing affiliations from one another or like in our case, there are multiple spellings and abbreviations for your instituion.
 
+You will also likely want to re-write some of the introductory HTML at the bottom of the script, which is very specific for the Geosciences department I wrote this for.
+
 Happy scraping!
