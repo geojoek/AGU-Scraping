@@ -33,7 +33,7 @@ ignored_exceptions=(StaleElementReferenceException) # This is good practice for 
 timezone = "EST" # for use in writing out HTML. This is your local timezone of the computer you're running this script from. The confex site interacts with this script in such a way where it only displays events in your local time, not the timezone of the conference.
 # ... therefore, the output of this script will only show event time in your local timezone. You can fix this with a fancy datetime function at the end if you want.
 
-# NOTE: not paramaterizing here because it feels too complicated to do so but boolean logic for which institution your authors are at is in the if statement on line 99 or thereabouts.
+# NOTE: not paramaterizing here because it feels too complicated to do so but boolean logic for which institution your authors are at is in the if statement on line 123 or thereabouts.
 # This willl likely be different for each institution, and you might have to write some very complicated logic if your authors have differing affiliations from one another or
 # like in our case, there are multiple spellings and abbreviations for your instituion.
 
